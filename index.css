@@ -119,8 +119,8 @@ body.nav-active{
     border-color: var(--color-red-500);
     background: var(--color-white);
 }
-/* -----header----- */
 
+/* -----header----- */
 .header .container{
     position: relative;
     display: flex;
@@ -130,7 +130,6 @@ body.nav-active{
     z-index: 4;
 }
 .header{
-    /* padding-block: 1rem; */
     position: absolute;
     top: 0;
     left: 0;
@@ -168,6 +167,7 @@ body.nav-active{
     display: block;
     visibility: visible;
     opacity: 1;
+    box-shadow: -2px 2px 15px var(--color-gray-600);
 }
 .menu-list{
     width: 60vw;
